@@ -1,0 +1,13 @@
+Thanks for choosing Crystals / Husks Template (Credits to Graic for making the original template that i modified)
+This is a guide on how to use this simple template!
+
+How to set everything up to work perfectly with your game!
+
+1. Check on your pc your gorilla tag download location (On which drive) if its on the C drive in the normal steam directory (C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag) then just continue with step 4
+2. If its not in the path there and you get assemblys errors then do the following step go to Assemblys and write or screenshot all the names of all Assemblys then you select all assemblys and delete them, now go to Dependencies right click and press add project reference, now go to your gorilla tag file location and select all the dlls with the names of the screenshoted assemblys. once you got all press okay then wait it might seem like it is crashing VS2022 but just wait it wont crash.
+3. Now go to Directory.Build.props and change the path on line 6 to your gorilla tag location.
+4. Now go to PluginInfo.cs and change the plugin name author version and GUID to your liking.
+5. then go to plugins and if you dont have any errors you should be able to code btw read the comments in the code to understand how to use the template even better!
+
+If you would like me to change something on the official source please notify me on discord: huskthedeveloper
+or reach me by email: huskthedev@huskthedev.de
